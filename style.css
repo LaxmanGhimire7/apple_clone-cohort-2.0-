@@ -129,9 +129,39 @@ margin-top: 10px;
   height: 80%;
   width: 100%;
   background-image: url(./images/iphones.png);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: top;
   text-align: center;
+padding: 50px;
+}
+
+#iphone17 h1{
+font-size: 55px;
+}
+
+#iphone17 p{
+font-size: 25px;
+font-weight: 500;
+}
+
+#links3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+#links3 button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  background-color: #0077ed;
+  color: #fff;
 
 }
+
+
 
