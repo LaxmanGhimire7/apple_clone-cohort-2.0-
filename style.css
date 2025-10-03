@@ -1,40 +1,137 @@
 @font-face {
-    font-family: nav;
-    src: url(./sf-pro-text_regular.woff2);
+  font-family: nav;
+  src: url(./sf-pro-text_regular.woff2);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+  font-family: semobold;
+  src: url(./sf-pro-text_semibold.woff2);
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: nav;
 }
 
-#nav{
-    background-color: #454545;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  background-color: #1d1c1c;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  font-family: nav;
+  font-size: 12px;
+}
+
+#nav a i {
+  font-size: 17px;
+  font-weight: 100;
+}
+
+#center {
+  background-color: black;
+  height: 80%;
+  width: 100%;
+  padding: 45px;
+  font-family: nav;
+  background-image: url(./images/iphone17.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#center h1 {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+}
+
+#center h5 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+}
+
+#links button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  background-color: #0077ed;
+  color: #fff;
+}
+
+#air {
+   margin-top: 20px;
+  height: 80%;
+  width: 100%;
+  background-image: url(./images/iphoneair.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px;
+}
+
+#air h1{
+    font-size: 55px;
+}
+
+#air p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#links2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
 }
 
 
-#nav a{
-    color: white;
-    text-decoration: none;
-    font-size: small;
-    font-family: nav;
-    font-size: 13px;
-   font-weight: 100;
+#links2 button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  background-color: #0077ed;
+  color: #fff;
+
 }
 
-#nav a i{
-    font-size: 17px;
-    font-weight: lighter;
+#iphone17{
+margin-top: 10px;
+  height: 80%;
+  width: 100%;
+  background-image: url(./images/iphones.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
 }
+
