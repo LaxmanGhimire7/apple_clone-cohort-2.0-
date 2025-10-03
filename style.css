@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: nav;
+    src: url(./sf-pro-text_regular.woff2);
+}
 
 *{
     margin: 0;
@@ -9,4 +12,29 @@
 html,body{
     height: 100%;
     width: 100%;
+}
+
+#nav{
+    background-color: #454545;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-family: nav;
+    font-size: 13px;
+   font-weight: 100;
+}
+
+#nav a i{
+    font-size: 17px;
+    font-weight: lighter;
 }
